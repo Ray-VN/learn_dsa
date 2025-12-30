@@ -12,8 +12,6 @@ class Solution {
 
         for (int i = 0; i < nums.length; i++) {
             int right = 0;
-            
-
 
             right = total - (left + nums[i]);
             
