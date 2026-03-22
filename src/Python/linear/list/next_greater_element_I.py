@@ -2,7 +2,7 @@
 
 class Solution(object):
     def nextGreaterElement(self, nums1, nums2):
-        nums2 = {x: i for i, x in enumerate(nums2)}
+        nums2 = {i: x for i, x in enumerate(nums2)}
         for y in nums1:
             if y in nums2:
                 nums2.get(y, None)
